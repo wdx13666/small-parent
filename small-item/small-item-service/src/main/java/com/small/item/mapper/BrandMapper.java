@@ -1,8 +1,7 @@
 package com.small.item.mapper;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.small.item.pojo.TbBrand;
-import tk.mybatis.mapper.common.Mapper;
 
-public interface BrandMapper extends Mapper<TbBrand> {
-
+public interface BrandMapper extends BaseMapper<TbBrand> {
 }

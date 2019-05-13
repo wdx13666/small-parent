@@ -1,4 +1,4 @@
-package com.sample;
+package com.small.item.pojo;
 
 
 public class TbSpu {

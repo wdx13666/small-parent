@@ -1,14 +1,8 @@
 package com.small.item.pojo;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 //@Table(name = "tb_category")
 public class TbCategory {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
   private String name;
   private long parentId;

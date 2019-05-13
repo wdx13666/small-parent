@@ -1,14 +1,8 @@
 package com.small.item.pojo;
 
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 public class TbBrand {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
   private String name; //品牌名称
   private String image;//品牌图片

@@ -1,8 +1,11 @@
-package com.sample;
+package com.small.item.pojo;
 
+
+import com.baomidou.mybatisplus.annotations.TableId;
 
 public class TbSpecification {
 
+  @TableId
   private long categoryId;
   private String specifications;
 

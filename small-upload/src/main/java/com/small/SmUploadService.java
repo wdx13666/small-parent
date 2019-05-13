@@ -1,16 +1,13 @@
 package com.small;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.small.item.mapper")
-public class ItemService {
-
+public class SmUploadService {
     public static void main(String[] args) {
-        SpringApplication.run(ItemService.class,args);
+        SpringApplication.run(SmUploadService.class, args);
     }
 }

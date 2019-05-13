@@ -1,8 +1,11 @@
-package com.sample;
+package com.small.item.pojo;
 
+
+import com.baomidou.mybatisplus.annotations.TableId;
 
 public class TbSpuDetail {
 
+  @TableId
   private long spuId;
   private String description;
   private String specifications;

@@ -8,6 +8,7 @@
         <module>small-api-gateway</module>
         <module>small-item</module>
         <module>small-common</module>
+        <module>small-upload</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -62,6 +63,12 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${pageHelper.starter.version}</version>
+            </dependency>
+            <!--mybatisplus-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>2.3</version>
             </dependency>
             <!-- mysql驱动 -->
             <dependency>
